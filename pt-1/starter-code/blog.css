@@ -1,0 +1,41 @@
+/*{
+    box-sizing: border-box;
+}*/
+
+.center {
+	margin-left: 70px;
+	margin-right: 70px;  
+	
+	
+}
+
+h1, h2, h3, a {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+
+}
+
+img {
+	max-width: 100%;
+}
+
+h1 {
+	text-align: center;
+	letter-spacing: 8px;
+}
+
+nav {
+	text-align: center;
+	text: : .5em;
+}
+
+a {
+	text-decoration: none;
+	line-height: 1em;
+	color: #607D8B;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	line-height: 1.4;
+}
