@@ -1,41 +1,144 @@
-/*{
-    box-sizing: border-box;
-}*/
 
-.center {
-	margin-left: 70px;
-	margin-right: 70px;  
+/*margins for webpage*/
+.size {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.mainNav {
+  	list-style: none;
+  	position: fixed;
+  	width: 100%;
+  	top: 0;
+  	left: 0;
+  	text-align: center; 
+	margin-top: 25px;
+}
+
+.mainNav a {
+	text-decoration: none;
+	padding-left: 5em;
+	padding-right: 5em;
+	color: #607D8B;
 	
-	
+}
+
+header {
+	background-image: url(images/blog_header_bg.jpg);
+	height: 40vh;
+	margin-top: 4em;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Center text on h1*/
+.centered {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 1em;
+}
+
+.centered h1 {
+	color: #ffffff;
+}
+h1 {
+  margin-top: 100px;
 }
 
 h1, h2, h3, a {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
+	color: #607D8B;
 
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
 }
 
 img {
 	max-width: 100%;
 }
 
-h1 {
-	text-align: center;
-	letter-spacing: 8px;
+@media(min-width: 768px){
+	.container-1 {
+		display: flex;
 }
 
-nav {
-	text-align: center;
-	text: : .5em;
+.box-1 {
+	flex: 2;
+	margin-right: 25px;
 }
 
-a {
+.box-2 {
+	flex: 1;
+	margin-left: 25px;
+}
+
+.previssues a {
 	text-decoration: none;
-	line-height: 1em;
-	color: #607D8B;
 }
 
-p {
-	font-family: 'Lato', sans-serif;
-	line-height: 1.4;
+.simple-form {
+	text-align: center;
 }
+
+#comments {
+	padding: 10px;
+}
+
+#comments input {
+	width: 48%;
+	box-sizing: border-box;
+	margin: 2px;
+	padding: 5px;
+	margin-bottom: 5px;
+	border-width: 2px;
+	border-color: #607D8B;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#comments textarea {
+	width: 97%;
+	border-color: #607D8B;
+
+}
+
+#buttonComments {
+	padding: 5px; 
+	width: 97%;
+	border-color: #607D8B;
+
+}
+
+footer {
+	background: #E1F5FE;
+    height: 100px;
+    padding: 3em; 
+    text-align: center;  
+}
+
+#emailAddress {
+	text-transform: uppercase;
+	padding: 10px 30px;
+	text-align: center;
+}
+
+#buttonEmail {
+	border: 1px solid black;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	margin-left: 20px;
+	background-color: #E1F5FE;
+}
+
+.social i {
+	padding-left: 1em;	
+	padding-right: 1em;
+	font-size: 20px;
+}
+
